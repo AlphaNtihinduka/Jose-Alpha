@@ -14,14 +14,22 @@
     <p>Thank you for taking the time to help us improve the platform</p>
   </div>
   <form id="survey-form">
-    <label for="name">Name</label>
+    <label id="name-label" for="name">Name</label>
     <input id="name" type="text" placeholder="Enter your name">
-    <label for="email">Email</label>
+    <label id="email-label" for="email">Email</label>
     <input id="email" type="email" placeholder="Enter your email">
-    <label for="age">Age(optional)</label>
-    <input id="number" type="number" placeholder="Age" >
-    <!-- <select name="drop-down" id=""></select> -->
+    <label id="number-label" for="age">Age(optional)</label>
+    <input id="number" type="number" placeholder="Age">
+    <label for="role">Which option best describes your current role?</label>
+    <select name="dropdown" id="role" placeholder="Select current role">
+      <option value="default">Select current role</option>
+      <option value="Student">Student</option>
+      <option value="job">Full time job</option>
+      <option value="learner">Full time learner</option>
+      <option value="nosay">Prefer not to say</option>
+      <option value="other">other</option>
+    </select>
   </form>
-</body>
+</body>|
 
 </html>
